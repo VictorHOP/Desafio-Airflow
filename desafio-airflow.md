@@ -26,9 +26,12 @@ Utilize as instruções no README do `Airflow_tooltorial` para instalar o Airflo
 │   ├── airflow.db
 │   ├── airflow-webserver.pid
 │   ├── dags
+│     ├── example_desafio.py
 │   ├── logs
 │   ├── standalone_admin_password.txt
 │   └── webserver_config.py
+├── data
+│   ├── Northwind_small.sqlite
 ```
 ## 3. Copie o DAG de exemplo para a pasta DAGs
 
@@ -52,7 +55,7 @@ Nosso objetivo neste desafio é construir um DAG muito simples que lê os dados 
 ``` 
 830
 ```
-### 3. Adicione uma variável no Airflow com a `key` "my_email" e no campo "value" adicione seu email @indicium.tech. Exemplo:
+### 3. Adicione uma variável no Airflow com a `key` "my_email" e no campo "value" adicione seu email victor.pereira@indicium.tech Exemplo:
 
 ![](variable.png)
 
